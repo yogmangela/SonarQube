@@ -121,5 +121,5 @@ sonarqube/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.ce.app.CeServer /o
 - i.e 3.547.354.4:9000
 - default User:admin & pwd: admin
 
-## **[Next >>](SonarQubeAndJankins.md) SonarQube with Jenkin integration:**
+## **[Next >>](SonarQubeAndJankins.md) SonarQube integration with Jenkin :**
 

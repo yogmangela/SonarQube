@@ -1,4 +1,4 @@
-# **Next >> SonarQube with Jenkin integration:**
+# **SonarQube integration with Jenkin:**
 
  
 ### Step1: Generate SQ Token:
