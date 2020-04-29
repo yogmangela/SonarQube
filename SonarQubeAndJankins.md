@@ -30,11 +30,11 @@ We will need this to access it from jenkins.
 ``Server URL``: <<your public-IP of SonarQube>>:900 . ***use private IP*** if you are on same network.
 ``Server Auth``: 
 
-![Sonarqube Server](/images/SQ_servers.png)
+![Sonarqube Server](/images/SQ_servers.PNG)
 
 ### Step5: Configure SonarQube Scanner installations
 ``Jenkins >> Global Tool Configuration`` 
-![Sonarqube Global Tool](/images/SQ_GlobalTool.png)
+![Sonarqube Global Tool](/images/SQ_GlobalTool.PNG)
 
 ### Step6: Finally build the job:
 
@@ -47,7 +47,7 @@ We will need this to access it from jenkins.
     stage("Deploy K8 Kubectl on Jenkins")
     stage("SonarQubeAnalysis") 
 
-![Sonarqube Analysis](/images/SQ_Access.png)
+![Sonarqube Analysis](/images/SQ_Access.PNG)
 
 
 ### Step7: Access SonarQube Analysis:
@@ -55,7 +55,7 @@ We will need this to access it from jenkins.
 - Click OK as above screenshot. OR
 - Login into SQ-server >> Project>>
 
-![Sonarqube Analysis](/images/SQ_Project.png)
+![Sonarqube Analysis](/images/SQ_Project.PNG)
 
 - Click on project to see Code review:
 
