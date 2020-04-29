@@ -37,7 +37,7 @@ GRANT ALL PRIVILEGES ON DATABASE sonarqube TO sonarqube;
 
 - type exit to instaall SOnarQube as sudo / root user
 
-### Step4: Insatalling ``SonarQube 8.2``
+### Step4: Insatalling ``SonarQube 7.9``
 
 ```
 mkdir /downloads/sonarqube -p
@@ -121,5 +121,5 @@ sonarqube/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.ce.app.CeServer /o
 - i.e 3.547.354.4:9000
 - default User:admin & pwd: admin
 
-## **Next >> SonarQube with Jenkin integration:**
+## **[Next >>](SonarQubeAndJankins.md) SonarQube with Jenkin integration:**
 
