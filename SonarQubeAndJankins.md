@@ -15,7 +15,7 @@ We will need this to access it from jenkins.
 - Click Add>> Select Jenkins: and Add your secret credential.
 - finally click 'Generate Pipeline Script' copy and paste the script into ''pipeline'' 
 
-![Sonarqube Secret](/images/SQ_Secret.png)
+![Sonarqube Secret](/images/SQ_Secret.PNG)
 
 ### Step3: Install SonarScanner plugins:
 
